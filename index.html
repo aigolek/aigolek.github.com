@@ -1,0 +1,135 @@
+<DOCTYPE html!>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class = "my-cv">
+      <div class = "content">
+        <div class = "header">
+          <div class = "header_background"></div>
+          <div class = "header_front">
+            <img src="imgs/profile.png" alt="тут моя фотка" class="avatar" />
+            <div class = "personal_info">
+              <p>Aigul Imadildayeva</p>
+              <p>Full-Stack Developer</p>
+              <a id = "telegram" class="badge badge-primary" href = "https://t.me/aigolek_i" target = "_blank">Telegram</a>
+              | 
+              <a id = "linkedin" class="badge badge-secondary" href = "https://www.linkedin.com/in/aigul-imadildayeva" target = "_blank">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class = "info">
+          <div class = "card bg-pink">
+            <h2>My hobby</h2>
+            <ol>
+              <li>Reading</li>
+              <li>Swimming</li>
+              <li>Playing ukulele</li>
+            </ol>
+          </div>
+          <div class = "card bg-green">
+            <h2>My Experience</h2>
+            <table class = "table ">
+              <tr class="table-info">
+                <td>POWR.io</td>
+                <td>Lead Engineer/Head of KZ office </td>
+                <td>2016-current </td>
+              </tr>
+              <tr class="table-primary">
+                <td>SDU</td>
+                <td>Lecturer</td>
+                <td>2020-current </td>
+              </tr>
+              <tr class="table-secondary">
+                <td>HomeCredit</td>
+                <td>System Analyst</td>
+                <td>2015-2016</td>
+              </tr>
+              <tr class="table-success">
+                <td>ForteBank</td>
+                <td>Lead Engineer</td>
+                <td>2010-2015</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="wrap">
+          <div class="exeprience-card">
+            <div class="front"><span>Backend Technologies</span></div>
+            <div class="back">
+              <ul>
+                <li>Ruby on Rails</li>
+                <li>Python</li>
+                <li>NodeJS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="exeprience-card">
+            <div class="front"><span>Frontend Technologies</span></div>
+            <div class="back">
+              <ul>
+                <li>JavaScript</li>
+                <li>ReactJS</li>
+                <li>VueJS</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JQuery</li>
+              </ul>
+            </div>
+          </div>
+          <div class="exeprience-card">
+            <div class="front"><span>DB knowledge</span></div>
+            <div class="back">
+              <ul>
+                <li>ORACLE</li>
+                <li>SQL</li>
+                <li>PSQL</li>
+                <li>ActiveRecord</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="contact mt-5">
+          <h2>Contact to me</h2>
+          <form action="/">
+            <div class="row">
+              <div class="form-group m-3">
+                <label for="name">Your name:</label>
+                <input type="text" id="name" placeholder="" class="form-control">
+              </div>
+
+              <div class="form-group m-3">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="" class="form-control">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="text">Your message:</label>
+              
+              <textarea id="text" rows="2" cols="15" class="form-control"></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check this if you would like to subscribe</label>
+            </div>
+            <div class="form-group">
+              <label for="exampleFormControlSelect1">Contact Purpose</label>
+              <select class="form-control" id="exampleFormControlSelect1">
+                <option>Hiring</option>
+                <option>Consultation</option>
+                <option>Meeting</option>
+              </select>
+            </div>
+            <input type="submit" value="Send message" class="btn btn-primary"> 
+          </form>
+        </div>
+        <div class = "footer">
+        </div>
+      </div>
+    </div>  
+  </body>
+</html>
